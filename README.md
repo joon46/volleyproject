@@ -1,4 +1,4 @@
-🛠 기술 스택
+##🛠 기술 스택
 Language: Python 3.x <br>
 ---Libraries--- <br>
 Selenium, BeautifulSoup4: 웹 데이터 크롤링 및 스크래핑 <br>
