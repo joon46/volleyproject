@@ -7,12 +7,22 @@ Matplotlib, Seaborn: 데이터 시각화 <br>
 Scikit-learn: 선형 회귀(Linear Regression) 모델 구축 및 평가 <br>
 
 
-A[KOVO Crawling Data] --> B{Data Preprocessing} <br>
-    B --> C[One-hot Encoding: Team] <br>
-    B --> D[Numeric Scaling: Season/Streak] <br>
-    C & D --> E[Feature Selection: Correlation > 0.7] <br>
-    E --> F[Linear Regression Model] <br>
-    F --> G[Predicted Points / Ranking] <br>
+graph TD
+
+    subgraph "Data Acquisition"
+        A[KOVO Official Website] --> B[Web Crawling]
+        B -- "Python (Selenium, BS4)" --> C[Raw Data (CSV)]
+    end
+
+    subgraph "Data Processing"
+        C --> D[Data Preprocessing]
+        D -- "Pandas, NumPy" --> E[Refined Dataset]
+    end
+
+    subgraph "Machine Learning"
+        E --> F[Linear Regression Model]
+        F -- "Scikit-learn" --> G[Insights & R² Score]
+    end
 
 ## 📊 Workflow Diagram
 ![Project Workflow](./image/volley_diagram.jpg)
