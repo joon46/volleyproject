@@ -1,10 +1,10 @@
-|    컬럼명          |    타입          |          설명                 | <br>
-| 시즌 (Season) |	Object / Int  |	해당 경기 시즌 (예: 2023-2024) |	수치형 변환 <br>
-| 세트득실률 | Float | 팀의 총 득세트 / 실세트 비율   | <br>
-| 공격_성공률 | Float | 팀 전체 공격 시도 대비 성공률 | <br>
-| 	 |  | 	 | <br>
-
-<br>
+🛠 기술 스택
+Language: Python 3.x
+---Libraries---
+Selenium, BeautifulSoup4: 웹 데이터 크롤링 및 스크래핑
+Pandas, NumPy: 데이터 전처리 및 분석
+Matplotlib, Seaborn: 데이터 시각화
+Scikit-learn: 선형 회귀(Linear Regression) 모델 구축 및 평가
 
 
 A[KOVO Crawling Data] --> B{Data Preprocessing} <br>
