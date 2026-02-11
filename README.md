@@ -1,3 +1,4 @@
+# 회귀모델.ipynb에서 데이터 전처리/시각화/머신러닝 작업 진행
 ##🛠 기술 스택
 Language: Python 3.x <br>
 ---Libraries--- <br>
